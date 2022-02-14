@@ -19,7 +19,12 @@ body {
     padding: 0;
     height: 100%;
 }
-    
+
+#kamurocho {
+    border: 0.3em solid #ffffff00;
+    border-radius: 0;
+}
+
 #nav-bar {
     background-color: #1F2937;
     display: flex;
@@ -47,7 +52,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5% 15% 10% 15%;
+    padding: 5% 15% 7% 15%;
 }
 
 #tag-line {
@@ -66,17 +71,97 @@ body {
 footer {
     background-color: #1F2937;
     margin: auto;
-    padding: 0% 4%;
+    padding: 2% 30%;
+    justify-content: center;
+    display: flex;
+    color: #999999;
 }
 
 button {
-    background-color: #3882f6; 
-    border: none;
+    background-color: #3882f6;
+    border-color: white;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 40px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
     border-radius: 10px;
     font-family: Roboto;
-  }
+}
+
+#info-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+img {
+    border: 0.3em solid #3882f6;
+    border-radius: 1.5em;
+}
+
+#headshots {
+    display: flex;
+    justify-content: space-around;
+    gap: 75px;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+#quote {
+    background-color: #1F2937;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10% 15% 10% 15%;
+    color: #F9FAF8;
+    font-weight: 800;
+    font-size: 48px;
+}
+
+#call-to-action {
+    background-color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 15% 7% 15%;
+}
+
+#call-to-action span {
+    color: #F9FAF8;
+    font-weight: 300;
+    font-size: 28px;
+
+}
+
+#call-to-action h2 {
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+
+#signup {
+    border: 0.3em solid #3882f6;
+    background-color: #3882f6;
+    border-radius: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#signupButton {
+}
+
+#author-name2 {
+    padding-top: 15px;
+    font-weight: 300;
+    font-size: 32px;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+}
